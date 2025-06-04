@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="500" height="500" viewBox="0 0 500 500" xml:space="preserve">
+<desc>Created with Fabric.js 3.6.3</desc>
+<defs>
+</defs>
+<g transform="matrix(1.4252518786212474 0 0 1.4252518786212474 250.00000000000003 250)"  >
+<g style=""   >
+		<g transform="matrix(1 0 0 1 -48.163845802471855 -2.448150755351861)"  >
+<path style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(251,96,84); fill-rule: nonzero; opacity: 0.83;"  transform=" translate(-89.68615419752814, -166.40184924464813)" d="M 0 81.9 v 169 c 0 12.1 12.8 19.7 23.5 14.2 l 147.3 -77.6 c 11 -5.8 11.5 -21.3 1 -27.8 L 24.5 68.3 C 13.7 61.7 0 69.4 0 81.9 z" stroke-linecap="round" />
+</g>
+		<g transform="matrix(1 0 0 1 38.44936919195126 57.31793920344839)"  >
+<path style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(90,189,172); fill-rule: nonzero; opacity: 0.83;"  transform=" translate(-176.29936919195126, -226.16793920344838)" d="M 75.9 131.6 v 189.2 c 0 13.5 14.3 22.1 26.3 15.9 l 164.9 -86.9 c 12.3 -6.5 12.9 -23.8 1.1 -31.1 L 103.3 116.3 C 91.3 108.9 75.9 117.5 75.9 131.6 z" stroke-linecap="round" />
+</g>
+		<g transform="matrix(1 0 0 1 38.44936919195126 -56.26123154371126)"  >
+<path style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(127,130,188); fill-rule: nonzero; opacity: 0.83;"  transform=" translate(-176.29936919195126, -112.58876845628873)" d="M 75.9 18 v 189.2 c 0 13.5 14.3 22.1 26.3 15.9 l 164.9 -86.9 c 12.3 -6.5 12.9 -23.8 1.1 -31.1 L 103.3 2.8 C 91.3 -4.7 75.9 3.9 75.9 18 z" stroke-linecap="round" />
+</g>
+</g>
+</g>
+</svg>
