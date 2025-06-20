@@ -14,7 +14,6 @@ const HomePage = () => {
       <PlatformSection />
       <AgentApplicationsSection />
       <GetStartedSection />
-      <BeginSection />
     </main>
   )
 }

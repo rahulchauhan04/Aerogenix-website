@@ -13,7 +13,7 @@ const AgentCard = ({ title, subtitle, description, useCase, deployIn, ctaText, d
       viewport={{ once: true }}
       transition={{ duration: 0.6, delay }}
       whileHover={{ y: -10 }}
-      className={`bg-gradient-to-br p-8 rounded-2xl shadow-lg border border-white/50 hover:border-blue-200 transition-all duration-300 relative overflow-hidden group backdrop-blur-sm h-full flex flex-col`}
+      className="bg-white/90 backdrop-blur-sm p-6 lg:p-8 rounded-2xl shadow-lg border border-white/50 hover:border-blue-200 transition-all duration-300 relative overflow-hidden group h-full flex flex-col"
     >
       <motion.div
         className="absolute top-0 left-0 w-full h-2 bg-gradient-to-r from-blue-600 to-blue-400"
@@ -23,17 +23,16 @@ const AgentCard = ({ title, subtitle, description, useCase, deployIn, ctaText, d
         transition={{ duration: 0.8, delay: delay + 0.2 }}
       />
       <div className="relative z-10 flex-1 flex flex-col">
-        <div>
-          <div className="flex items-start mb-4">
-            <motion.div className="text-blue-600 text-3xl mr-4">
-              <img src={icon} alt='logos' className="w-12 h-12"/>
+        <div>          <div className="flex items-start mb-4">
+            <motion.div className="text-blue-600 text-3xl mr-4 flex-shrink-0">
+              <img src={icon} alt="Agent logo" className="w-10 h-10 lg:w-12 lg:h-12 object-contain"/>
             </motion.div>
-            <div>
-              <h3 className="text-2xl font-bold mb-2 text-gray-800">{title}</h3>
-              <p className="text-blue-600 font-semibold text-lg mb-4">{subtitle}</p>
+            <div className="min-w-0 flex-1">
+              <h3 className="text-xl lg:text-2xl font-bold mb-2 text-gray-800 leading-tight">{title}</h3>
+              <p className="text-blue-600 font-semibold text-base lg:text-lg mb-4">{subtitle}</p>
             </div>
           </div>
-          <p className="text-gray-700 mb-6 leading-relaxed">{description}</p>
+          <p className="text-gray-700 mb-6 leading-relaxed text-sm lg:text-base">{description}</p>
           <div className="space-y-3 mb-6">
             <div className="bg-white/60 p-3 rounded-lg shadow">
               <p className="text-sm text-gray-600">

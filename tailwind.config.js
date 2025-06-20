@@ -63,9 +63,36 @@ const config = {
         lg: 'var(--radius)',
         md: 'calc(var(--radius) - 2px)',
         sm: 'calc(var(--radius) - 4px)',
+      },      fontFamily: {
+        sans: [
+          'Inter', 
+          '-apple-system', 
+          'BlinkMacSystemFont', 
+          '"Segoe UI"', 
+          'Roboto', 
+          '"Helvetica Neue"', 
+          'Arial', 
+          'sans-serif'
+        ],
+        display: [
+          'Inter', 
+          '-apple-system', 
+          'BlinkMacSystemFont', 
+          '"Segoe UI"', 
+          'sans-serif'
+        ],
       },
-      fontFamily: {
-        sans: ['Inter', 'sans-serif'],
+      fontWeight: {
+        thin: '100',
+        extralight: '200',
+        light: '300',
+        normal: '400',
+        medium: '500',
+        semibold: '600',
+        bold: '700',
+        extrabold: '800',
+        black: '900',
+        heavy: '950',
       },
       animation: {
         float: 'float 6s ease-in-out infinite',
